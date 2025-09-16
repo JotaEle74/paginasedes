@@ -1,6 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "UNA PUNO - SEDES",
+  "name": "Universidad Nacional del Altiplano PUNO - SEDES",
+  "description": "Página oficial de las sedes de la Universidad Nacional del Altiplano, información institucional, carreras y servicios.",
+  "lang": "es",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +10,29 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo_unap_solo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "logo_unap_solo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
+  "orientation": "portrait",
+  "scope": ".",
+  "categories": ["educación", "universidad", "información"],
+  "screenshots": [
+    {
+      "src": "logo_unap_solo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "label": "Página principal de UNA PUNO - SEDES"
+    }
+  ],
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
